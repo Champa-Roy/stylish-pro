@@ -692,6 +692,9 @@ details p {
 }
 
 @media (max-width:880px) {
+	.cta-title{
+		font-size: 1.8rem
+	}
 	.cta-inner {
 		flex-direction: column;
 		text-align: center

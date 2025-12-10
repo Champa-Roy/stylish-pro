@@ -60,6 +60,9 @@ body{
 	background: linear-gradient(135deg, rgba(43,108,176,0.95) 0%, rgba(76,81,191,0.95) 60%);
 	color:#fff;
 	padding:3.5rem 1rem;
+	min-height: 60vh;
+	display:flex;
+	align-items:center;
 }
 .hero-inner{
 	max-width:1100px;
@@ -70,7 +73,7 @@ body{
 	align-items:center;
 }
 .hero-title{
-	font-size:2.1rem;
+	font-size:5.1rem;
 	line-height:1.05;
 	margin:0 0 0.75rem 0;
 	font-weight:800;
@@ -227,7 +230,6 @@ details p{margin:0.5rem 0 0 0;color:#475569}
 .case-card.large{transform:translateY(-28px);box-shadow:0 28px 60px rgba(12,24,40,0.12)}
 
 .case-studies::before{content:"";position:absolute;left:-6%;top:-6%;width:40%;height:120%;background:linear-gradient(135deg, rgba(43,108,176,0.06), rgba(107,70,193,0.03));transform:rotate(-6deg);border-radius:18px;z-index:0}
-.case-studies::after{content:"";position:absolute;right:-4%;bottom:-8%;width:30%;height:90%;background:radial-gradient(circle at 30% 30%, rgba(43,108,176,0.06), transparent 30%);z-index:0}
 
 @media (max-width:1100px){.case-wrap{grid-template-columns:1fr;gap:1rem}.case-card img{height:180px}.case-card.large{transform:none}}
 
